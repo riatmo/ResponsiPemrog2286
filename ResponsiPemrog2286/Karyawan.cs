@@ -20,7 +20,7 @@ namespace ResponsiPemrog2286
             Nama = nama;
             GajiBulanan = gajibulanan;
 
-            //Agar default gaji menjadi 0 ketika nilai GajiBulanan < 0
+            //Agar default GajiBulanan menjadi 0 ketika nilai gajibulanan < 0
             if (gajibulanan < 0)
             {
                 GajiBulanan = 0;
